@@ -235,13 +235,14 @@
 	}
 	
 	/**
-	* Name 载入数据
+	*  载入数据
 	*/
-	$('#data-datagrid').datagrid({
-		url:'temp/datagrid.php',
+	
+		$('#data-datagrid').datagrid({
+		url:'../menu/list',
 		loadFilter:pagerFilter,		
 		rownumbers:true,
-		singleSelect:false,
+		singleSelect:true,
 		pageSize:20,           
 		pagination:true,
 		multiSort:true,
@@ -249,13 +250,12 @@
 		fit:true,
 		columns:[[
 			{ checkbox:true},
-			{ field:'productid',title:'productid',width:100,sortable:true},
-			{ field:'productname',title:'productname',width:180,sortable:true},
-			{ field:'unitcost',title:'unitcost',width:100},
-			{ field:'listprice',title:'listprice',width:100},
-			{ field:'attr1',title:'attr1',width:100},
-			{ field:'itemid',title:'itemid',width:100},
-			{ field:'status',title:'status',width:100}
+			{ field:'name',title:'菜单名称',width:100,sortable:true},
+			{ field:'url',title:'菜单url',width:180,sortable:true},
+			{ field:'icon',title:'图标icon',width:100},
+			
 		]]
 	});
+	
+	
 </script>

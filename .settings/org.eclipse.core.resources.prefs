@@ -3,4 +3,5 @@ encoding//WebRoot/WEB-INF/views/menu/list.jsp=UTF-8
 encoding//WebRoot/WEB-INF/views/system/index.jsp=UTF-8
 encoding//WebRoot/resources/admin/h-ui/js/H-ui.admin.js=UTF-8
 encoding//WebRoot/resources/admin/h-ui/js/H-ui.js=UTF-8
+encoding//src/com/ischoolbar/programmer/service/admin/MenuService.java=UTF-8
 encoding//src/config/db.properties=UTF-8
